@@ -11,12 +11,6 @@
       "role": "Maintainer"
     }
   ],
-  "repositories": {
-    "bikeclub_media": {
-      "type": "vcs",
-      "url": "https://github.com/NCole29/bikeclub_media"
-    }
-  },
   "require": {
     "bikeclub/bikeclub_media": ">=1.0",
     "drupal/crop": ">=2.0",
