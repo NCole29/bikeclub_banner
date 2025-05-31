@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.node.banner.banner_image
-    - field.field.node.banner.field_padding
     - node.type.banner
   module:
     - user
@@ -20,16 +19,6 @@ content:
       link: false
     third_party_settings: {  }
     weight: 4
-    region: content
-  field_padding:
-    type: boolean
-    label: inline
-    settings:
-      format: yes-no
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    weight: 3
     region: content
   links:
     settings: {  }

@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.node.banner.banner_image
-    - field.field.node.banner.field_padding
     - node.type.banner
   module:
     - field_group
@@ -36,13 +35,6 @@ content:
     region: content
     settings:
       media_types: {  }
-    third_party_settings: {  }
-  field_padding:
-    type: boolean_checkbox
-    weight: 2
-    region: content
-    settings:
-      display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
