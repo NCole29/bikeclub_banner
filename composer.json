@@ -12,12 +12,12 @@
         }
     ],
     "require": {
-        "bikeclub/bikeclub_media": ">=1.0",
-        "drupal/crop": ">=2.0",
-        "drupal/field_group": ">=3.0",
+        "bikeclub/bikeclub_media": "dev-main",
+        "drupal/crop": "^2.0",
+        "drupal/field_group": "^3.0",
         "drupal/image_widget_crop": "^2.4",
-        "drupal/svg_image": ">=3.0",
-        "drupal/views_slideshow": ">=5.0"
+        "drupal/svg_image": "^3.0",
+        "drupal/views_slideshow": "^5.0"
     },
     "version": "1.0.1"
 }
