@@ -4,7 +4,6 @@ type: 'Content type'
 recipes:
   - bikeclub_media
 install:
-  - media_library
   - node
   # Contrib.
   - crop
@@ -17,7 +16,6 @@ config:
   strict: false
   import:
     image_widget_crop: '*'
-    media_library: '*'
     node:
       - core.entity_view_mode.node.full
       - core.entity_view_mode.node.teaser
