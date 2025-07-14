@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - views
+id: views_block__banner_banner_other
+region: banner_pictures
+weight: -15
+provider: null
+plugin: 'views_block:banner-banner_other'
+settings:
+  id: 'views_block:banner-banner_other'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility: {  }
