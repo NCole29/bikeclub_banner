@@ -5,9 +5,12 @@ dependencies:
     - views.view.banner
   module:
     - views
-id: views_block__banner_banner_other
-region: banner_pictures
-weight: -15
+  theme:
+    - olivero
+id: olivero_views_block__banner_banner_other
+theme: olivero
+region: header
+weight: 0
 provider: null
 plugin: 'views_block:banner-banner_other'
 settings:
