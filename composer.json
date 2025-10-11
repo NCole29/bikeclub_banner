@@ -14,7 +14,7 @@
     "require": {
         "bikeclub/bikeclub_media": "dev-main",
         "drupal/crop": "^2.0",
-        "drupal/field_group": "^3.0",
+        "drupal/field_group": "^4.0",
         "drupal/image_widget_crop": "^3.0",
         "drupal/svg_image": "^3.0",
         "drupal/views_slideshow": "^5.0"
