@@ -9,7 +9,6 @@ install:
   - crop
   - field_group
   - image_widget_crop
-  - jquery_deprecated_functions
   - svg_image
   - views_slideshow
   - views_slideshow_cycle
