@@ -11,8 +11,8 @@ dependencies:
   module:
     - media
     - node
-id: banner
-label: Banner
+id: club_banners
+label: 'Club banners'
 module: views
 description: 'Images from "Banner pictures" are displayed as slideshow or gallery at top of page.'
 tag: ''
