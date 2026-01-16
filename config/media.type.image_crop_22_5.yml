@@ -5,8 +5,6 @@ dependencies:
     - crop
     - scheduler
 third_party_settings:
-  crop:
-    image_field: _none
   scheduler:
     expand_fieldset: when_required
     fields_display_mode: vertical_tab
@@ -20,12 +18,14 @@ third_party_settings:
     unpublish_enable: false
     unpublish_required: false
     unpublish_revision: false
-id: gallery
-label: 'Gallery picture'
-description: 'Use for gallery images placed above page title; 3:2 aspect ratio enforced.'
+  crop:
+    image_field: field_media_image_1
+id: image_crop_22_5
+label: 'Banner picture'
+description: 'Use for banner images on home page and above the page title on other pages. Images are cropped with 22:5 aspect ratio enforced.'
 source: image
 queue_thumbnail_downloads: false
 new_revision: false
 source_configuration:
-  source_field: field_media_image
+  source_field: field_media_image_1
 field_map: {  }

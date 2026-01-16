@@ -3,16 +3,16 @@ status: true
 dependencies:
   config:
     - field.storage.media.field_image_category
-    - media.type.image_crop_20_7
+    - media.type.image_crop_22_5
     - taxonomy.vocabulary.image_category
-id: media.image_crop_20_7.field_image_category
+id: media.image_crop_22_5.field_image_category
 field_name: field_image_category
 entity_type: media
-bundle: image_crop_20_7
+bundle: image_crop_22_5
 label: 'Image category'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
